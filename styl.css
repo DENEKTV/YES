@@ -1,0 +1,112 @@
+*
+{
+    font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+
+a:visited
+{
+    color: black;
+}
+
+
+body
+{
+    background-color: rgba(203, 30, 119, 0.4);
+}
+#container
+{
+    flex-direction: column;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+#header
+{
+
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    order: 1;
+    display: inline-block;
+}
+
+
+#nav
+{
+    
+    text-align: center;
+    word-spacing: 30px;
+    order: 2;
+}
+
+#Dom:hover
+{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+    color: rgb(163, 39, 149);
+}
+
+#Dlaczego:hover
+{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+    color: rgb(163, 39, 149);
+}
+
+#Powstanie:hover
+{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+    color: rgb(163, 39, 149);
+}
+
+#landing
+{
+    
+    height:  50px;
+    text-align: center;
+    order: 3;
+}
+#lowertt
+{
+    order: 4;
+}
+
+#klik
+{
+    text-align: center;
+    order: 5;
+}
+
+#przycisk
+{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(163, 39, 149);
+    border: 1px solid rgb(163, 39, 149);
+    border-radius: 10px;
+}
+
+#zdjecie
+{
+    text-align: center;
+    order: 4;
+}
+
+
+li
+{
+    display: inline-block;
+}
